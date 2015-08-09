@@ -13,12 +13,11 @@ class LoginPage {
 
   render() {
     let title = 'Log In';
-    this.context.onSetTitle(title);
+    /* this.context.onSetTitle(title);*/
     return (
       <div className="LoginPage">
         <div className="LoginPage-container">
-          <h1>{title}</h1>
-          <p>...</p>
+          <p>Hey YO</p>
         </div>
       </div>
     );
